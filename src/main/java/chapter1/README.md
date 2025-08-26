@@ -8,4 +8,12 @@ JUnit5 = JUnit Platform + Junit Jupiter + JUnit Vintage
 ### Junit Platform
 - JVM에서 테스팅 프레임워크를 실행시키기 위한 기반을 제공한다.
 - Platform에서 실행되는 테스팅 프레임워크를 개발하기 위한 TestEngine API도 정의되어 있다.
-- Console Launcher 커맨드라인
+- 또한 커맨드 라인으로 Platform을 실행할 수 있는 Console Launcher와 하나 이상의 테스트 엔진을 사용해서 테스트 묶음을 실행하기 위한 Suite Engine을 제공한다.
+
+### Junit Jupiter
+- 테스트를 작성하기 위한 프로그래밍 모델과 확장 모델(Junit 5에서 확장을 위한)의 조합이다.
+- Jupiter API를 기반으로 작성된 테스트를 Platform에서 실행하기 위해 필요한 TestEngine이 포함되어 있다.
+
+### Junit Vintage
+- 이전 버전의 테스트를 Platform에서 실행하기 위해 필요한 TestEngine을 제공해준다. 
+
