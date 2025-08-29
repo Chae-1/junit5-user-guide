@@ -27,12 +27,12 @@ JUnit 5 학습을 위한 Gradle 기반 Java 프로젝트입니다. JUnit 5 테�
 ```
 src/
 ├── main/java/
-│   ├── Calculator.java              # 메인 애플리케이션 클래스
+│   ├── junit.Calculator.java              # 메인 애플리케이션 클래스
 │   ├── chapter1/README.md           # JUnit 5 개요 문서 (한국어)
 │   ├── chapter2/README.md           # 테스트 작성 문서 (한국어)
 │   └── chapter3/                    # 추가 챕터 내용
 └── test/java/
-    └── CalculateTest.java           # 기본 JUnit 5 테스트 예제
+    └── junit.CalculateTest.java           # 기본 JUnit 5 테스트 예제
 ```
 
 ## 테스팅 프레임워크
@@ -45,5 +45,5 @@ src/
 
 - JUnit 5 개념을 설명하는 한국어 교육 콘텐츠 포함
 - README 파일로 이론적 설명이 포함된 챕터별 구성
-- 테스팅 데모를 위한 기본 Calculator 클래스 제공
+- 테스팅 데모를 위한 기본 junit.Calculator 클래스 제공
 - 복잡한 빌드 설정이나 추가 테스팅 프레임워크 없는 단순한 구조

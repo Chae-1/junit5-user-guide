@@ -1,7 +1,8 @@
+package junit;
+
 import static java.time.Duration.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.time.Duration;
 import java.util.concurrent.CountDownLatch;
 
 import org.junit.jupiter.api.Assertions;
@@ -15,8 +16,8 @@ public class AssertionsDemo {
 
 	@Test
 	void standardAssertions() {
-		assertEquals(2, calculator.add(1, 1));
-		assertEquals(4, calculator.multiply(2, 2),
+		Assertions.assertEquals(2, calculator.add(1, 1));
+		Assertions.assertEquals(4, calculator.multiply(2, 2),
 			"The optional failure message is now the last parameter");
 
 		// 실패 시 보여지는 message이다.
